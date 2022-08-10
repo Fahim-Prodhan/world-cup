@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* heading section */
+.head{
+    display: flex;
+    color: white;
+    justify-content: left;
+    border-radius: 30px;
+    background-color: rgb(26, 26, 26);
+    margin: 50px 100px;
+}
+
+.headh{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    margin-left:150px ;
+    padding-top: 100px;
+}
+.headh h1{
+    font-size: 3em;
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.headimg{
+    margin-left: 120px;
+    margin-top: 30px;     
+}
+.btn{
+    font-size: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+/* sidebutton section */
+.sidebtn{   
+    display: flex;  
+    margin: 0px 100px;
+
+}
+    
+.sidebtn1{
+    display: flex;  
+    align-items: center;
+    position: relative;
+    height: 250px;
+    width: 370px;
+    /* margin-left: 100px; */
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: black;
+    flex-direction: column;
+    
+}
+.sidebtn button{
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    cursor: pointer;
+    height: 60px;
+    width: 70%;
+}
+.sidebtn1 .grop{
+    background-color: red;
+    color: white;
+}
+.sidebtn button:active{
+    background-color: red;
+    color: white;
+}
+
+
+/* grid section is star here */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;   
+}
+.box{
+    
+    /* background-color: rgb(226, 226, 226); */
+    /* border: 2px solid rgb(231, 231, 231); */
+    /* width: 312px; */
+    width: 100%;
+    border-radius: 5px;
+}
+.bg{
+    background-color: rgb(226, 226, 226);
+    margin: 0px 6px;
+    padding: 5px;
+    border-radius: 0 0 5px 5px ;
+}
+.gridtext{
+    text-align: left;
+    /* padding: 10px; */
+}
+.gridlogo{
+    display: flex;
+    padding: 0px  40px;
+    text-align: center;
+}
+.gridlogo1{
+    display: flex;
+    
+}
+
+.gridbtn{
+    border: 1px solid black;
+    position: relative;
+    width: 80px;
+    border-radius: 2px;
+    font-size: 20px;
+    text-align: center;
+    /* margin-left: 2px;   */
+}
+.gridbtn:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.gridimg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gridlogo p{
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+}
